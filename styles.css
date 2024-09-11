@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.form-section {
+    width: 300px;
+    margin: 20px 0 0 20px; /* Aligned to the left */
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Spacing between rows */
+}
+
+.input-group label {
+    margin-right: 20px; /* Spacing between label and input */
+    width: 60px; /* Fixed width for labels */
+}
+
+.input-group input {
+    flex: 1; /* Input takes remaining space */
+    padding: 5px;
+}
+
+button {
+    display: block;
+    width: fit-content; /* Only takes as much space as needed */
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px; /* Spacing above button */
+}
+
+.search-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-section input {
+    width: 200px; /* Keep the search input box in the center */
+    padding: 5px;
+    display: inline-block; /* Keep input on the same line as label */
+}
+
+#password-list {
+    list-style: none;
+    padding: 0;
+}
+
+#password-list li {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#password-list button {
+    padding: 3px 7px; /* Make the Delete and Edit buttons smaller */
+    margin-left: 5px; /* Space between the buttons */
+    font-size: 12px;
+    cursor: pointer;
+}

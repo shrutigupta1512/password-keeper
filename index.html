@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Keeper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="center">Password Keeper</h1>
+    <h3 class="center" id="total-passwords">Total Passwords: 0</h3>
+
+    <!-- Form Section -->
+    <div class="form-section">
+        <div class="input-group">
+            <label for="title">Title:</label>
+            <input type="text" id="title" placeholder=" ">
+        </div>
+
+        <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder=" ">
+        </div>
+
+        <button id="add-button">Add</button>
+    </div>
+
+    <!-- Search Section -->
+    <div class="search-section center">
+        <h3 style="display: inline-block; margin-right: 10px;">Search:</h3>
+        <input type="text" id="search" placeholder=" ">
+    </div>
+
+    <h3>All Passwords:</h3>
+    <ul id="password-list"></ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
